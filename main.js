@@ -49,11 +49,13 @@ help =
   "\t help\n";
 
 aboutme =
-  "\tGraduate from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. Pursued a growing interest in the software \n" +
-  "\tindustry where I obtained experience as a Software QA Automation Engineer. Self-taught in [[b;#ec03fc;none]Python], \n" +
-  "\t[[b;#ec03fc;none]Java], [[b;#ec03fc;none]Javascript], and [[b;#ec03fc;none]C#] programming languages with experience working in a team-based, Agile\n" +
-  "\tenvironment and utilizing the Jira software suite. Seeking positions that offer opportunities for \n" +
-  "\tgrowth as a [[b;#ec03fc;none]software developer] at a company that aligns with my interests.\n";
+
+  "\tMy name is [[b;#ec03fc;none]Miles Jorgensen] and I graduated from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. I started pursuing a growing interest\n" +
+  "\tin the software industry a few years ago when I began learning how to code in [[b;#ec03fc;none]Python] from online courses. I decided to make the \n" +
+  "\tjump into a new field and gained valuable experience as a Software QA Automation Engineer. This opened the door for my new career\n" +
+  "\tpath where I went on to learn other object oriented programming languages like [[b;#ec03fc;none]Java], [[b;#ec03fc;none]Javascript], and [[b;#ec03fc;none]C#] through work experience \n" +
+  "\tand personal projects. I am now ready to make the next jump in my career and I am excited to learn, grow, and develop new skills\n" +
+  "\tat a company that offers a role for growth as a [[b;#ec03fc;none]software developer].";
 
 contact =
   "\t\t[[b;;]Miles Jorgensen]\n" +
