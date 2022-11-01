@@ -79,7 +79,7 @@ selfDrivingCar =
 
 markovText =
   "\t\t[[b;#df64ed;none]Markov Text Generator -] [[bi;#df64ed;none]Markov Chains and Webscraping] \n" +
-  "\tImplemented Markov chains to generate 'prose' using the Markovify library. Text was provided the Project Gutenberg \n" +
+  "\tImplemented Markov chains to generate 'prose' using the Markovify library. Text was provided by the Project Gutenberg \n" +
   "\tlibrary from ntlk.corpus package. In addition, I implemented webscraping with the Beautiful Soup library to take \n" +
   "\tsong lyrics from the top ten songs section of https://genius.com/\n" +
   "\tHere are some sample quotes made from Walt Whitmans 'Leaves in the Grass' and the top songs from genius.com:\n" +
