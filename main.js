@@ -25,6 +25,10 @@ $("body").terminal(
       case "markov text":
         this.echo(markovText, { typing: true, delay: 10 });
         break;
+      case "colorid":
+      case "ColorID":
+      case "colorID":
+        this.echo(colorID, { typing: true, delay: 10 })
     }
   },
   {
@@ -66,6 +70,7 @@ contact =
 projects =
   "\tEnter one following as a command to get more information:\n" +
   "\t\tSelf Driving Car\n" +
+  "\t\tColorID\n" +
   "\t\tMarkov Text\n";
 
 selfDrivingCar =
@@ -76,6 +81,15 @@ selfDrivingCar =
   "\tof the car can be controlled from inputs given by the user to see how the behavior changes with the given input \n" +
   "\tvalues. Users can save the 'brain' of the highest performing car of the generation and use that as a starting point \n" +
   "\tfor the next generation which are mutated versions of that 'brain'. Try it yourself [[!;;;;https://milesjorg.netlify.app/self-driving-car/self-driving-car.html]here]\n";
+
+colorID = 
+"\t\t[[b;#df64ed;none]ColorID -] [[bi;#df64ed;none]Javascript Color Picker] \n" +
+"\tCreated a color picker made available as a webpage where users can easily drag and drop image files into the \n" +
+"\tdropzone. There are two tools the user can use: a magnifying glass to get a closer look at their image, and \n" +
+"\ta form that stores the RGB and hexadecimal values of the pixel that was clicked on. The webpage uses a canvas \n" +
+"\telement to present the image and magnify it. The whole website was made with vanilla JS with some CSS3 styling.\n" +
+"\tTry it yourself [[!;;;;https://colorid.netlify.app/]here]\n";
+
 
 markovText =
   "\t\t[[b;#df64ed;none]Markov Text Generator -] [[bi;#df64ed;none]Markov Chains and Webscraping] \n" +
