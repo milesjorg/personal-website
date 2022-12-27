@@ -56,10 +56,10 @@ aboutme =
 
   "\tMy name is [[b;#ec03fc;none]Miles Jorgensen] and I graduated from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. I started pursuing a growing interest\n" +
   "\tin the software industry a few years ago when I began learning how to code in [[b;#ec03fc;none]Python] from online courses. I decided to make the \n" +
-  "\tjump into a new field and gained valuable experience as a Software QA Automation Engineer. This opened the door for my new career\n" +
+  "\tjump into a new field and gained valuable experience as a Software QA and Automation Engineer. This opened the door for my new career\n" +
   "\tpath where I went on to learn other object oriented programming languages like [[b;#ec03fc;none]Java], [[b;#ec03fc;none]Javascript], and [[b;#ec03fc;none]C#] through work experience \n" +
-  "\tand personal projects. I am now ready to make the next jump in my career and I am excited to learn, grow, and develop new skills\n" +
-  "\tat a company that offers a role for growth as a [[b;#ec03fc;none]software developer].\n";
+  "\tand personal projects. I am currently seeking positions in a company that offers career growth in the software industry and a role\n" + 
+  "\tthat can challenge me to learn and develop new skills.\n"
 
 contact =
   "\t\t[[b;;]Miles Jorgensen]\n" +
