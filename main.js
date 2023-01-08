@@ -11,7 +11,7 @@ $("body").terminal(
         this.echo(aboutme, { typing: true, delay: 10 });
         break;
       case "resume":
-        this.echo($('<img src="resume.jpg">'));
+        this.echo($('<img src="resume-rs.png">'));
         break;
       case "projects":
         this.echo(projects, { typing: true, delay: 30 });
