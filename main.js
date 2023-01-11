@@ -75,12 +75,12 @@ projects =
 
 selfDrivingCar =
   "\t\t[[b;#df64ed;none]Self Driving Car -] [[bi;#df64ed;none]Machine Learning Project] \n" +
-  "\tCreated a simple webpage game where a car is controlled to weave through traffic. Implemented a neural network \n" +
+  "\tCreated a webpage game where a car is controlled to weave through traffic. Implemented a neural network \n" +
   "\tto control the car and learn how to drive it. The network is visualized next to the game where the inputs, \n" +
   "\toutputs, and hidden layers show the activity of the best performing car. The amount of traffic and characteristics\n" +
   "\tof the car can be controlled from inputs given by the user to see how the behavior changes with the given input \n" +
   "\tvalues. Users can save the 'brain' of the highest performing car of the generation and use that as a starting point \n" +
-  "\tfor the next generation which are mutated versions of that 'brain'. Try it yourself [[!;;;;https://milesjorg.netlify.app/self-driving-car/self-driving-car.html]here]\n";
+  "\tfor the next generation which are mutated versions of that 'brain'. Try it yourself [[!;;;;https://self-driving-car-vanillajs.netlify.app/]here]\n";
 
 colorID = 
 "\t\t[[b;#df64ed;none]ColorID -] [[bi;#df64ed;none]Javascript Color Picker] \n" +
