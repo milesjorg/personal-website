@@ -73,7 +73,7 @@ projects =
   "\t\tMarkov Text\n";
 
 selfDrivingCar =
-  "\t\t[[b;#df64ed;none]Self Driving Car -] [[bi;#df64ed;none]Machine Learning Project] \n" +
+  "\t\t[[b;#df64ed;none]Self-Driving Car -] [[bi;#df64ed;none]Machine Learning Project] \n" +
   "\tCreated a webpage game where a car is controlled to weave through traffic. Implemented a neural network \n" +
   "\tto control the car and learn how to drive it. The network is visualized next to the game where the inputs, \n" +
   "\toutputs, and hidden layer show the activity of the best performing car. The amount of traffic and characteristics\n" +
