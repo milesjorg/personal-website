@@ -11,7 +11,7 @@ $("body").terminal(
         this.echo(aboutme, { typing: true, delay: 10 });
         break;
       case "resume":
-        this.echo($('<img src="resume-rs.png">'));
+        this.echo($('<object data="MilesJorgensenResume.pdf" class="pdf">'))
         break;
       case "projects":
         this.echo(projects, { typing: true, delay: 30 });
@@ -53,7 +53,6 @@ help =
   "\t help\n";
 
 aboutme =
-
   "\tMy name is [[b;#ec03fc;none]Miles Jorgensen] and I graduated from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. I started pursuing a growing interest\n" +
   "\tin the software industry a few years ago when I began learning how to code in [[b;#ec03fc;none]Python] from online courses. I decided to make the \n" +
   "\tjump into a new field and gained valuable experience as a Software QA and Automation Engineer. This opened the door for my new career\n" +
