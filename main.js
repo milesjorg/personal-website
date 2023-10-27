@@ -29,6 +29,10 @@ $("body").terminal(
       case "ColorID":
       case "colorID":
         this.echo(colorID, { typing: true, delay: 10 })
+        break;
+      case "retrowave":
+        this.echo($('<img src="retrowave.gif">'))
+        this.echo(retrowave, {typing: true, delay: 10 })
     }
   },
   {
@@ -100,3 +104,12 @@ markovText =
   "\t\tAre you faithful to all, He and the bells of the earth, it is eternal, \n\t\tThe law of heroes and the thousand island paradises of the body, if not more.\n\n" +
   "\t\tAnd all or my words itch at the lawyer plead for my city, \n\t\tWhere speculations on their old Thames, I only to face!\n\n" +
   "\t\tNotti Like what? \n\t\tThey mans got the deal that it feels? \n\t\t41 K but I want the what? \n\t\tYeah yeah yo Oh tell me we ain't playing no defense Like what?\n";
+
+retrowave = 
+"\t\t[[b;#df64ed;none]Retrowave CSS Animation -] [[bi;#df64ed;none]Vanilla HTML + CSS] \n" +
+"\tUsed pure CSS to animate a page in the style of 1980s retrowave. Utilized techniques such as [[b;#ec03fc;none]perspective] and\n" +
+"\t[[b;#ec03fc;none]perspective-origin] to give the illusions for the vertical lines to appear closer at the bottom and further away\n" +
+"\tat the top. Used the [[b;#ec03fc;none]@keyframes] rule to animate the lines in the sun and on the grid to give the illusion of movement.\n" +
+"\t[[!;;;;https://milesjorg-retrowave.netlify.app/]Click here] to check out the full web page! There's a fullscreen button in the top right (or just press spacebar) if\n" +
+"\tyou want to throw on a cool screen saver!\n" +
+"\t"
