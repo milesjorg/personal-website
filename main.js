@@ -31,6 +31,7 @@ $("body").terminal(
         this.echo(colorID, { typing: true, delay: 10 })
         break;
       case "retrowave":
+      case "Retrowave":
         this.echo($('<img src="retrowave.gif">'))
         this.echo(retrowave, {typing: true, delay: 10 })
     }
@@ -74,6 +75,7 @@ projects =
   "\tEnter one following as a command to get more information:\n" +
   "\t\tSelf Driving Car\n" +
   "\t\tColorID\n" +
+  "\t\tRetrowave\n" +
   "\t\tMarkov Text\n";
 
 selfDrivingCar =
