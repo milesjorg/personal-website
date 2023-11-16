@@ -23,7 +23,7 @@ $("body").terminal(
         break;
       case "Markov Text":
       case "markov text":
-        this.echo(markovText, { typing: true, delay: 10 });
+        this.echo(markovText, { typing: true, delay: 5 });
         break;
       case "colorid":
       case "ColorID":
@@ -37,14 +37,14 @@ $("body").terminal(
     }
   },
   {
-    prompt: "[[;#df64ed;]➜   ]",
+    prompt: "[[;#ec03fc;]➜   ]",
     checkArity: false,
     greetings:
       "     _       __     __                          __\n" +
       "    | |     / /__  / /________  ____ ___  ___  / /     \tHello! I'm Miles, welcome to my personal website!\n" +
       "    | | /| / / _ // / ___/ __ |/ __ `__ // _ // /      \tEnter 'help' for a list of commands.\n" +
       "    | |/ |/ /  __/ / /__/ /_/ / / / // /  __//_/  \n" +
-      "    |__/|__/|___/_/|___/|____/_/ /_//_/|___ (_)        \tI made this website using the [[!;;;;https://terminal.jcubic.pl/]jQuery Terminal Library]\n\n\n",
+      "    |__/|__/|___/_/|___/|____/_/ /_//_/|___ (_)        \tI made this website using the [[!;#ec03fc;;;https://terminal.jcubic.pl/]jQuery Terminal Library]\n\n\n",
   }
 );
 
@@ -66,10 +66,10 @@ aboutme =
   "\tthat can challenge me to learn and develop new skills.\n"
 
 contact =
-  "\t\t[[b;;]Miles Jorgensen]\n" +
-  "\t\t[[!;;;;https://www.linkedin.com/in/milesjorg/]LinkedIn]\n" +
-  "\t\t[[!;;;;https://github.com/milesjorg]GitHub]\n" +
-  "\t\tmbjorgensen96@gmail.com\n";
+  "\t\t[[b;#ec03fc;]Miles Jorgensen]\n" +
+  "\t\t[[!;#ec03fc;;;https://www.linkedin.com/in/milesjorg/]LinkedIn]\n" +
+  "\t\t[[!;#ec03fc;;;https://github.com/milesjorg]GitHub]\n" +
+  "\t\t[[!;#ec03fc;;;milesbjorgensen@gmail.com]Email]\n";
 
 projects =
   "\tEnter one following as a command to get more information:\n" +
@@ -79,39 +79,40 @@ projects =
   "\t\tMarkov Text\n";
 
 selfDrivingCar =
-  "\t\t[[b;#df64ed;none]Self-Driving Car -] [[bi;#df64ed;none]Machine Learning Project] \n" +
-  "\tCreated a webpage game where a car is controlled to weave through traffic. Implemented a neural network \n" +
+  "\t\t[[b;#ec03fc;none]Self-Driving Car -] [[bi;#ec03fc;none]Machine Learning Project] \n" +
+  "\tCreated a webapp game where a car is controlled to weave through traffic. Implemented a [[b;#ec03fc;]neural network] \n" +
   "\tto control the car and learn how to drive it. The network is visualized next to the game where the inputs, \n" +
   "\toutputs, and hidden layer show the activity of the best performing car. The amount of traffic and characteristics\n" +
   "\tof the car can be controlled from inputs given by the user to see how the behavior changes with the given input \n" +
   "\tvalues. Users can save the 'brain' of the highest performing car of the generation and use that as a starting point \n" +
-  "\tfor the next generation which are mutated versions of that 'brain'. Try it yourself [[!;;;;https://self-driving-car-vanillajs.netlify.app/]here]\n";
+  "\tfor the next generation which are mutated versions of that 'brain'. Try it yourself [[!;#ec03fc;;;https://self-driving-car-vanillajs.netlify.app/]here]\n";
 
 colorID = 
-"\t\t[[b;#df64ed;none]ColorID -] [[bi;#df64ed;none]Javascript Color Picker] \n" +
-"\tCreated a color picker made available as a webpage where users can easily drag and drop image files into the \n" +
+"\t\t[[b;#ec03fc;none]ColorID -] [[bi;#ec03fc;none]Javascript Color Picker] \n" +
+"\tCreated a color picker made available as a webapp where users can easily drag and drop image files into the \n" +
 "\tdropzone. There are two tools the user can use: a magnifying glass to get a closer look at their image, and \n" +
-"\ta form that stores the RGB and hexadecimal values of the pixel that was clicked on. The webpage uses a canvas \n" +
-"\telement to present the image and magnify it. The whole website was made with vanilla JS with some CSS3 styling.\n" +
-"\tTry it yourself [[!;;;;https://colorid.netlify.app/]here]\n";
+"\ta form that stores the RGB and hexadecimal values of the pixel that was clicked on. The webapp uses a canvas \n" +
+"\telement to present the image and magnify it. The whole website was made with [[b;#ec03fc;]vanilla JS] with some [[b;#ec03fc;]CSS3] styling.\n" +
+"\tTry it yourself [[!;#ec03fc;;;https://colorid.netlify.app/]here]\n";
 
 
 markovText =
-  "\t\t[[b;#df64ed;none]Markov Text Generator -] [[bi;#df64ed;none]Markov Chains and Webscraping] \n" +
+  "\t\t[[b;#ec03fc;none]Markov Text Generator -] [[bi;#ec03fc;none]Markov Chains and Webscraping] \n" +
   "\tImplemented Markov chains to generate 'prose' using the Markovify library. Text was provided by the Project Gutenberg \n" +
   "\tlibrary from ntlk.corpus package. In addition, I implemented webscraping with the Beautiful Soup library to take \n" +
-  "\tsong lyrics from the top ten songs section of https://genius.com/\n" +
-  "\tHere are some sample quotes made from Walt Whitmans 'Leaves in the Grass' and the top songs from genius.com:\n" +
+  "\tsong lyrics from the top ten songs section of [[!;#ec03fc;;;https://genius.com/]genius.com]\n" +
+  "\tHere are some sample quotes made from Walt Whitman's 'Leaves in the Grass' and the top songs from genius.com:\n" +
   "\tCan you tell which quotes came from which text?\n\n" +
   "\t\tAre you faithful to all, He and the bells of the earth, it is eternal, \n\t\tThe law of heroes and the thousand island paradises of the body, if not more.\n\n" +
   "\t\tAnd all or my words itch at the lawyer plead for my city, \n\t\tWhere speculations on their old Thames, I only to face!\n\n" +
   "\t\tNotti Like what? \n\t\tThey mans got the deal that it feels? \n\t\t41 K but I want the what? \n\t\tYeah yeah yo Oh tell me we ain't playing no defense Like what?\n";
 
 retrowave = 
-"\t\t[[b;#df64ed;none]Retrowave CSS Animation -] [[bi;#df64ed;none]Vanilla HTML + CSS] \n" +
+"\t\t[[b;#ec03fc;none]Retrowave CSS Animation -] [[bi;#ec03fc;none]Vanilla HTML + CSS] \n" +
 "\tUsed pure CSS to animate a page in the style of 1980s retrowave. Utilized techniques such as [[b;#ec03fc;none]perspective] and\n" +
 "\t[[b;#ec03fc;none]perspective-origin] to give the illusions for the vertical lines to appear closer at the bottom and further away\n" +
 "\tat the top. Used the [[b;#ec03fc;none]@keyframes] rule to animate the lines in the sun and on the grid to give the illusion of movement.\n" +
+"\tI submitted this project as a part of [[b;#ec03fc;none]Hacktoberfest 2023] where it was accepted an merged to their [[!;;;;https://github.com/zero-to-mastery/Animation-Nation]community repository]!\n" +
 "\t[[!;;;;https://milesjorg-retrowave.netlify.app/]Click here] to check out the full web page! There's a fullscreen button in the top right (or just press spacebar) if\n" +
 "\tyou want to throw on a cool screen saver!\n" +
 "\t"
