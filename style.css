@@ -1,10 +1,111 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: darkgray;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: #0c1e3a;
+    overflow-y: hidden;
+}
+
+.cmd-wrapper, .terminal-command, div[data-index] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.terminal {
+    --color: #97fda0;
+    --background: #0c1e3a;
+    --link-color: #f561b2;
+    --animation: terminal-glow;
+    --glow: 2;
+}
+
+@media screen and (min-width: 650px) {
+    :root {
+        --size: 0.7;
+    }
+}
+
+@media screen and (min-width: 772px) {
+    :root {
+        --size: 0.8;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    :root {
+        --size: 0.9;
+    }
+}
+
+@media screen and (min-width: 955px) {
+    :root {
+        --size: 1;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    :root {
+        --size: 1.1;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    :root {
+        --size: 1.2;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    :root {
+        --size: 1.3;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    :root {
+        --size: 1.4;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    :root {
+        --size: 1.5;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    :root {
+        --size: 1.6;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    :root {
+        --size: 1.7;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    :root {
+        --size: 1.8;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    :root {
+        --size: 1.9;
+    }
+}
+
+@media screen and (min-width: 1950px) {
+    :root {
+        --size: 2;
+    }
+}
+
+.cmd-cursor {
+    --original-color: #cce5f8;
+}
+
+.pdf {
+    width: 1000px;
+    height: 1000px;
 }

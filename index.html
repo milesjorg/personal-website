@@ -2,47 +2,20 @@
 <html lang="en">
   <head>
     <title>Miles Jorgensen</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://unpkg.com/jquery.terminal@2.x.x/css/jquery.terminal.min.css"
     />
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-            minimum-scale=1,
-            initial-scale=1"
-    />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   
   <body>
+    <div id="terminal"></div>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/jquery.terminal@2.x.x/js/jquery.terminal.min.js"></script>
     <script src="main.js"></script>
   </body>
-
-  <style>
-    .terminal {
-      --color: #97fda0;
-      --background: #0c1e3a;
-      --link-color: #f561b2;
-      --animation: terminal-glow;
-      --glow: 2;
-    }
-
-    @media screen and (min-width: 1200px) {
-        :root {
-            --size: 1.6;
-        }
-    }
-
-    .cmd-cursor {
-        --original-color: #cce5f8;
-    }
-
-    .pdf {
-      width: 1000px;
-      height: 1000px;
-    }
-  </style>
 </html>
