@@ -11,7 +11,7 @@ $(document).ready(function () {
         term.echo(aboutme, { typing: true, delay: 10 });
         break;
       case "resume":
-        term.echo($('<object data="MilesJorgensenResume.pdf" class="pdf">'))
+        term.echo($('<object data="Miles Resume.pdf" class="pdf">'))
         break;
       case "projects":
         term.echo(projects, { typing: true, delay: 30 });
@@ -28,6 +28,7 @@ $(document).ready(function () {
         term.echo(markovText, { typing: true, delay: 5, keepwords: true  });
         break;
       case "colorid":
+      case "color id":
       case "ColorID":
       case "colorID":
         term.echo(colorID, { typing: true, delay: 10, keepwords: true  })
