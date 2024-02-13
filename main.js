@@ -2,7 +2,7 @@ $(document).ready(function () {
   $('#terminal').terminal(function (command, term) {
     switch (command) {
       case "help":
-        term.echo(help, { typing: true, delay: 30});
+        term.echo(help, { typing: true, delay: 30 });
         break;
       case "contact":
         term.echo(contact, { typing: true, delay: 30 });
@@ -20,36 +20,36 @@ $(document).ready(function () {
       case "self driving car":
       case "selfdrivingcar":
         term.echo($('<img src="SDC-demo.gif">'));
-        term.echo(selfDrivingCar, { typing: true, delay: 10, keepwords: true  });
+        term.echo(selfDrivingCar, { typing: true, delay: 10, keepwords: true });
         break;
       case "Markov Text":
       case "markov text":
       case "markovtext":
-        term.echo(markovText, { typing: true, delay: 5, keepwords: true  });
+        term.echo(markovText, { typing: true, delay: 5, keepwords: true });
         break;
       case "colorid":
       case "color id":
       case "ColorID":
       case "colorID":
-        term.echo(colorID, { typing: true, delay: 10, keepwords: true  })
+        term.echo(colorID, { typing: true, delay: 10, keepwords: true })
         break;
       case "retrowave":
       case "Retrowave":
         term.echo($('<img src="retrowave.gif">'))
-        term.echo(retrowave, { typing: true, delay: 10, keepwords: true  })
+        term.echo(retrowave, { typing: true, delay: 10, keepwords: true })
         break;
     }
   }, {
-      prompt: "[[;#ec03fc;]➜   ]",
-      checkArity: false,
-      height: window.innerHeight,
-      greetings:
-        "     _       __     __                          __\n" +
-        "    | |     / /__  / /________  ____ ___  ___  / /     \tHello! I'm Miles, welcome to my personal website!\n" +
-        "    | | /| / / _ // / ___/ __ |/ __ `__ // _ // /      \tEnter 'help' for a list of commands.\n" +
-        "    | |/ |/ /  __/ / /__/ /_/ / / / // /  __//_/  \n" +
-        "    |__/|__/|___/_/|___/|____/_/ /_//_/|___ (_)        \tI made this website using the [[!;#ec03fc;;;https://terminal.jcubic.pl/]jQuery Terminal Library]\n\n\n",
-    });
+    prompt: "[[;#ec03fc;]➜   ]",
+    checkArity: false,
+    height: window.innerHeight,
+    greetings:
+      "     _       __     __                          __\n" +
+      "    | |     / /__  / /________  ____ ___  ___  / /     \tHello! I'm Miles, welcome to my personal website!\n" +
+      "    | | /| / / _ // / ___/ __ |/ __ `__ // _ // /      \tEnter 'help' for a list of commands.\n" +
+      "    | |/ |/ /  __/ / /__/ /_/ / / / // /  __//_/  \n" +
+      "    |__/|__/|___/_/|___/|____/_/ /_//_/|___ (_)        \tI made this website using the [[!;#ec03fc;;;https://terminal.jcubic.pl/]jQuery Terminal Library]\n\n\n",
+  });
 });
 
 help =
@@ -63,11 +63,12 @@ help =
 
 aboutme =
   "My name is [[b;#ec03fc;none]Miles Jorgensen] and I graduated from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. \n" +
-  "I started pursuing a growing interest in the software industry a few years ago when I began learning how to code in [[b;#ec03fc;none]Python] \n" +
-  "from online courses. I decided to make the jump into a new field and gained valuable experience as a Software QA and Automation Engineer. \n" +
-  "This opened the door for my new career path where I went on to learn other object oriented programming languages like [[b;#ec03fc;none]Java] \n" +
-  "and [[b;#ec03fc;none]Javascript] through work experience and personal projects. I am currently seeking positions in a company that offers career \n" +
-  "growth in the software industry and a role that can challenge me to learn and develop new skills."
+  "I started pursuing a growing interest in the software industry a few years ago when I began learning how to code \n" +
+  "in [[b;#ec03fc;none]Python] from online courses. I decided to make the jump into a new field and gained valuable experience as a Software QA \n" +
+  "and Automation Engineer. This opened the door for my new career path where I went on to learn other object oriented\n" +
+  "programming languages like [[b;#ec03fc;none]Java] and [[b;#ec03fc;none]Javascript] through work experience and personal projects. I am currently seeking\n" +
+  "positions in a company that offers career growth in the software industry and a role that can challenge me to learn and\n" +
+  "develop new skills."
 
 contact =
   "\t[[b;#ec03fc;]Miles Jorgensen]\n" +
@@ -106,10 +107,10 @@ markovText =
   "library from ntlk.corpus package. In addition, I implemented webscraping with the Beautiful Soup library to take \n" +
   "song lyrics from the top ten songs section of [[!;#ec03fc;;;https://genius.com/]genius.com] \n" +
   "Here are some sample quotes made from Walt Whitman's 'Leaves in the Grass' and the top songs from genius.com:\n" +
-  "Can you tell which quotes came from which text?\n\n" +
-  "\tAre you faithful to all, He and the bells of the earth, it is eternal, \n\tThe law of heroes and the thousand island paradises of the body, if not more.\n\n" +
-  "\tAnd all or my words itch at the lawyer plead for my city, \n\tWhere speculations on their old Thames, I only to face!\n\n" +
-  "\tNotti Like what? \n\tThey mans got the deal that it feels? \n\t41 K but I want the what? \n\tYeah yeah yo Oh tell me we ain't playing no defense Like what?";
+  "Can you tell which quotes came from which text?\n \n" +
+  "\tAre you faithful to all, He and the bells of the earth, it is eternal, \n \tThe law of heroes and the thousand island paradises of the body, if not more.\n \n" +
+  "\tAnd all or my words itch at the lawyer plead for my city, \n \tWhere speculations on their old Thames, I only to face!\n \n" +
+  "\tNotti Like what? \n \tThey mans got the deal that it feels? \n \t41 K but I want the what? \n \tYeah yeah yo Oh tell me we ain't playing no defense Like what?";
 
 retrowave =
   "[[b;#ec03fc;none]Retrowave CSS Animation -] [[bi;#ec03fc;none]Vanilla HTML + CSS] \n" +
