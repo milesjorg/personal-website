@@ -73,7 +73,7 @@ contact =
   "\t[[b;#ec03fc;]Miles Jorgensen]\n" +
   "\t[[!;#ec03fc;;;https://www.linkedin.com/in/milesjorg/]LinkedIn]\n" +
   "\t[[!;#ec03fc;;;https://github.com/milesjorg]GitHub]\n" +
-  "\t[[!;#ec03fc;;;milesbjorgensen@gmail.com]Email]";
+  "\t[[!;#ec03fc;;;milesbjorgensen@gmail.com]milesbjorgensen@gmail.com]";
 
 projects =
   "Enter one following as a command to get more information:\n" +
