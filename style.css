@@ -3,11 +3,15 @@ body {
     overflow-y: hidden;
 }
 
-.cmd-wrapper, .terminal-command, div[data-index] {
+.cmd-wrapper, .terminal-command{
     margin-left: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
 }
+
+div[data-index] {
+    margin-left: 10px;
+}
+
 
 .terminal {
     --color: #97fda0;
