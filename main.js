@@ -11,7 +11,7 @@ $(document).ready(function () {
         term.echo(aboutme, { typing: true, delay: 10 });
         break;
       case "resume":
-        term.echo($('<object data="Miles Resume.pdf" class="pdf">'))
+        term.echo($('<object data="Miles_Jorgensen.pdf" class="pdf">'))
         break;
       case "projects":
         term.echo(projects, { typing: true, delay: 30 });
