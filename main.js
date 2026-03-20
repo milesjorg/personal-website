@@ -62,13 +62,14 @@ help =
   "\thelp";
 
 aboutme =
-  "My name is [[b;#ec03fc;none]Miles Jorgensen] and I graduated from [[b;#fcdb03;none]CSULB] with a BS in Aerospace Engineering. \n" +
-  "I started pursuing a growing interest in the software industry a few years ago when I began learning how to code \n" +
-  "in [[b;#ec03fc;none]Python] from online courses. I decided to make the jump into a new field and gained valuable experience as a Software QA \n" +
-  "and Automation Engineer. This opened the door for my new career path where I went on to learn other object oriented\n" +
-  "programming languages like [[b;#ec03fc;none]Java] and [[b;#ec03fc;none]Javascript] through work experience and personal projects. I am currently seeking\n" +
-  "positions in a company that offers career growth in the software industry and a role that can challenge me to learn and\n" +
-  "develop new skills."
+  "I'm [[b;#ec03fc;none]Miles Jorgensen], a QA Automation Engineer who originally studied Aerospace Engineering at [[b;#fcdb03;none]CSULB] before discovering a \n" +
+  "passion for software. In 2019, I started teaching myself [[b;#ec03fc;none]Python], then moved into professional QA roles where I picked up \n" +
+  "[[b;#ec03fc;none]Java, Kotlin, Selenium, Appium, and API/UI automation] by working on real-world products. That path has sharpened my \n" +
+  "attention to detail and my habit of constantly tuning tests and frameworks to be more reliable, efficient, and \n" +
+  "insightful. My aerospace background gives me a unique systems-oriented mindset and problem-solving style, and I'm known \n" +
+  "for catching subtle issues in complex financial and real-time systems that others often miss. I'm currently looking for \n" +
+  "a role that pushes me to deepen my current skill set, exposes me to new technologies and architectures, and allows me to \n" +
+  "play a meaningful part in the company's success."
 
 contact =
   "\t[[b;#ec03fc;]Miles Jorgensen]\n" +
