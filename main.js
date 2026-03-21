@@ -66,7 +66,7 @@ aboutme =
   "passion for software. In 2019, I started teaching myself [[b;#ec03fc;none]Python], then moved into professional QA roles where I picked up \n" +
   "[[b;#ec03fc;none]Java, Kotlin, Selenium, Appium, and API/UI automation] by working on real-world products. That path has sharpened my \n" +
   "attention to detail and my habit of constantly tuning tests and frameworks to be more reliable, efficient, and \n" +
-  "insightful. My aerospace background gives me a unique systems-oriented mindset and problem-solving style, and I'm known \n" +
+  "insightful. My aerospace background gives me a unique [[b;#ec03fc;none]systems-oriented mindset] and problem-solving style, and I'm known \n" +
   "for catching subtle issues in complex financial and real-time systems that others often miss. I'm currently looking for \n" +
   "a role that pushes me to deepen my current skill set, exposes me to new technologies and architectures, and allows me to \n" +
   "play a meaningful part in the company's success."
